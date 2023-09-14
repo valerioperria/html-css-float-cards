@@ -15,15 +15,21 @@ body{
     width: 80%;
     margin: 0 auto;
 }
+ 
+/* HEADER */
 
 header{
     margin:4rem 0;
     color: rgb(228, 52, 111);
 }
 
+/* MAIN */
+
 p{
     margin-bottom: 2.5rem;
 }
+
+/* BOXES */
 
 .box {
     float: left;
@@ -49,5 +55,5 @@ p{
 }
 
 .mail{
-    color: aqua;
+    color: rgb(90, 203, 242);
 }
