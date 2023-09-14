@@ -29,14 +29,25 @@ p{
     float: left;
     width: calc(100% / 3);
     padding: 20px;
-    text-align: center;
+    display: inline-block;
 }
 
 .box img {
     height: 100px;
+    float: left;
 }
 
 .card {
     background-color: black;
     color: white;
+    padding: 0;
+    height: 100px;
+}
+
+.x{
+    text-align: start;
+}
+
+.mail{
+    color: aqua;
 }
