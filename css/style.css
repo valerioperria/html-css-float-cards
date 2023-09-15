@@ -35,7 +35,6 @@ p{
     float: left;
     width: calc(100% / 3);
     padding: 20px;
-    display: inline-block;
 }
 
 .box img {
@@ -47,7 +46,12 @@ p{
     background-color: black;
     color: white;
     padding: 0;
-    height: 100px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .x{
